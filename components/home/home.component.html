@@ -1,0 +1,59 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<header>
+	<div class="container-fluid">
+		<div class="jumbotron hero">
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</div>
+						<!-- <a class="navbar-brand" href="www.github.com/JokotolaIfe">JOKOTOLA IFEOLUWA R.</a> -->
+					</div>
+					<div id="navbar" class="collapse navbar-collapse navbar-right">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Jokotola, Ifeoluwa R.</a></li>
+							<!-- <li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li> -->
+						</ul>
+                        <hr class="hidden-sm hidden-md hidden-lg" style="margin: 0 30px;">
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+			<div class="text-center hero-row">
+				<h1 class="heading"><span>HERO</span> Design</h1>
+                <h2 class="subheading">Full screen Hero Style</h2>
+				<div class="btn-group">
+					<button class="btn btn-lg btnx-blue" type="button">Read more</button>
+					<button class="btn btn-lg btnx-white" type="button">Contact us</button>
+				</div>
+			</div>
+			<div class="row header-features text-center hero-row hero-bottom">
+							
+			<div class="row" style="text-align: center;">
+				<div *ngFor="let item of items" class="card" style="width: 18rem; margin: 20px auto; border-radius: 12px">
+						<img src="..." class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title" style="color: black">{{item.name}}</h5>
+						<p class="card-text" style="color: red"><b>${{item.price}}</b></p>
+								{{item.price}}
+						<a (click)="addToCart(item.id, item.name, item.price)" class="btn btn-success">Add to cart</a>
+						</div>
+					</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+
+

@@ -1,0 +1,168 @@
+html, body {
+	background-color: #fcfcfc;
+	color: #131313;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.btnx-blue {
+    background-color: #2874A6;
+}
+
+.btnx-blue:hover,
+.btnx-blue:focus,
+.btnx-blue:active,
+.btnx-blue:visited {
+    background-color: #1F618D;
+    color: #fcfcfc;
+}
+
+.btnx-white {
+    background-color: #fcfcfc;
+    color: #131313;
+}
+
+.btnx-white:hover {
+    background-color: #D0D3D4;
+    color: #131313;
+}
+
+.btnx-white:hover,
+.btnx-white:focus,
+.btnx-white:active,
+.btnx-white:visited {
+    background-color: #D0D3D4;
+    color: #131313;
+}
+
+.navbar {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-header > div > span {
+	font-size: 32px;
+	color: #fcfcfc;
+}
+
+.navbar-header > div > span:hover {
+	cursor: pointer;
+}
+
+.navbar-brand {
+	color: #fcfcfc;
+	font-size: 24px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+	color: #2874A6;
+	font-size: 24px;
+}
+
+.navbar-nav a {
+	color: #fcfcfc;
+	font-size: 14px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: transparent;
+	color: #2874A6;
+}
+
+.nav > li.active {
+	border-bottom: 3px solid #2874A6;
+}
+
+.nav > hr {
+    border: 2px solid #2874A6;
+}
+
+.jumbotron.hero {
+	color: #fcfcfc;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url(https://images.pexels.com/photos/726478/pexels-photo-726478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+	border-radius: 0;
+}
+
+.jumbotron.hero .heading {
+	font-weight: 900;
+}
+
+.jumbotron.hero .heading > span {
+	color: #5499C7;
+}
+
+.jumbotron.hero .subheading {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+	color: #5499C7;
+}
+
+.header-features {
+	padding: 10px;
+}
+
+.header-features > div {
+	padding: 0 50px;
+}
+
+.header-features > div > div {
+	border-left: 1px solid #2874A6;
+	border-right: 1px solid #2874A6;
+}
+
+.header-features > div > span {
+	font-size: 32px;
+}
+
+.header-features p {
+	font-size: 14px;
+}
+
+.hero-row {
+	display: table-row;
+}
+
+.hero-row.hero-bottom {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-nav a {
+		font-size: 18px;
+		text-align: center;
+	}
+	.nav > li.active {
+		border-bottom: none;
+	}
+}	

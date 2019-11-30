@@ -1,0 +1,6 @@
+<ul class="list-group list-group-flush">
+    <li  *ngFor="let cart of carts"  class="list-group-item" style="color: black"><b>{{cart.Product_Name}}</b> ${{cart.price}} <button type="button" class="btn btn-success" routerLink="/home">Add More</button>
+     &nbsp; <button type="button" class="btn btn-danger" (click)="removeItem(cart.cid)">Remove</button></li>
+  </ul>
+
+<button type="button" class="btn btn-danger" (click)="checkout()">click here to pay {{total}}</button>
